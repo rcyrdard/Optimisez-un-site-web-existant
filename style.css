@@ -533,7 +533,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 4;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -730,6 +730,14 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.text-italique {
+    font-style: italic;
 }
 
 h2 {
@@ -808,19 +816,20 @@ h4 {
 
 .tc-white {
     /* color: #F3976C !important; */
-    color: #d7f103 !important;
+    color: #f5c412 !important;
 }
 
 .btn-atomic-tangerine {
     /* background: #F3976C; */
     background: #561c01;
-    color: #FFFFFF !important;
+    /* color: #FFFFFF !important; */
+    color: #f5c412 !important;
 }
 
 .btn-atomic-tangerine:hover {
     /* background: #c27956 !important; */
     background: #8A2D01 !important;
-    color: #FFFFFF !important;
+    color: #f5c412 !important;
 }
 
 .ltc-white {
