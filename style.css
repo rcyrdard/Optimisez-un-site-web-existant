@@ -702,6 +702,12 @@ p {
     font-size: 16px;
 }
 
+.contacte {
+    line-height: 45px;
+    margin: 120px auto;
+    text-align: center;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -964,6 +970,10 @@ h4 {
     #disqus_thread {
         padding-left: 10px !important;
         padding-right: 10px !important;
+    }
+
+    .contacte {
+        margin: initial;
     }
 
     .b-parallax {
