@@ -23,7 +23,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 100%;
-    z-index: 100000;
+    /* z-index: 100000; */
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
@@ -290,7 +290,7 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar-brand {
@@ -361,7 +361,7 @@ a:hover {
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 @media (min-width: 768px) {
@@ -524,6 +524,11 @@ button {
     box-shadow: none;
 }
 
+.form-control:focus {
+    background-color: rgb(230, 230, 253);
+    color: rgb(3, 87, 3);
+}
+
 /* .form-group {
     padding-bottom: 15px;
 } */
@@ -545,7 +550,7 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
+    /* opacity: 1; */
 }
 
 a[data-lightbox] {
@@ -565,7 +570,7 @@ a[data-lightbox]:hover::before {
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
-    z-index: 1;
+    /* z-index: 1; */
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -573,7 +578,7 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
+    /* opacity: 0.6; */
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
@@ -613,18 +618,18 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 20;
+    /* z-index: 20; */
     background: rgba(0, 0, 0, .5);
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
+    /* opacity: 0.3; */
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
+    /* opacity: 1.0; */
     color: #FFF;
 }
 
@@ -632,12 +637,12 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .2);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
-    z-index: 1;
-    opacity: 0.4;
+    /* z-index: 1; */
+    /* opacity: 0.4; */
 }
 
 .next-lightbox {
@@ -817,7 +822,7 @@ h4 {
 
 .bgc-atomic-tangerine {
     /* background-color: #F3976C; */
-    background-color: #561c01;
+    background-color: #762702;
 }
 
 .tc-white {
@@ -835,7 +840,7 @@ h4 {
 
 .btn-atomic-tangerine {
     /* background: #F3976C; */
-    background: #561c01;
+    background: #762702;
     /* color: #FFFFFF !important; */
     color: #f5c412 !important;
 }
