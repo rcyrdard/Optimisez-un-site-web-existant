@@ -790,7 +790,7 @@ h4 {
 .portfolio-thumb {
     margin-bottom: 24px;
 
-    width: 100%;
+    width: 90%;
 }
 
 .portfolio-row {
@@ -872,9 +872,9 @@ h4 {
     border-color: #364577 !important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.WebP");
-}
+} */
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.WebP");
